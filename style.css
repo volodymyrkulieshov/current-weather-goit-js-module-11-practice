@@ -1,6 +1,15 @@
+form.js-search {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 input {
-  width: 550px;
-  padding: 10px;
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -33,7 +42,7 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 200px;
+  width: 100%;
 }
 
 .button:disabled {
@@ -44,4 +53,43 @@ button {
   box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
     rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
     rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #666;
+}
+.temp {
+  font-weight: bold;
+  color: #f00;
 }
